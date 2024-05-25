@@ -50,7 +50,7 @@ export const experiences: ExperienceProps[] = [
       },
       {
         id: randomUUID(),
-        text: 'Saas'
+        text: 'Sass'
       },
       {
         id: randomUUID(),
@@ -66,7 +66,7 @@ export const experiences: ExperienceProps[] = [
     id: randomUUID(),
     title: 'Sambatech',
     subtitle: 'Front-Developer',
-    description: 'Contribui para o desenvolvimento de uma plataforma focada na área da educação com cursos (mídias como vídeos aulas e quizzes), eventos e entre outros para a John Deere capacitar seus funcionários e usuários comuns com temas de agronegócio, com foco no web responsivo.',
+    description: 'Contribui na construção da plataforma focada na área da educação com cursos (mídias como vídeos aulas e quizzes), eventos e entre outros para a John Deere capacitar seus funcionários e usuários comuns com temas de agronegócio, com foco no web responsivo.',
     time: {
       startDate: { year: '2023', month: Month.Set },
       endDate: { year: '2024', month: Month.Abr }
@@ -102,10 +102,6 @@ export const experiences: ExperienceProps[] = [
       },
       {
         id: randomUUID(),
-        text: 'React Router Dom'
-      },
-      {
-        id: randomUUID(),
         text: 'React Hook Form'
       },
       {
@@ -120,11 +116,12 @@ export const experiences: ExperienceProps[] = [
   },
   {
     id: randomUUID(),
-    title: 'ISH Tecnologia',
+    title: 'Seidor Brasil',
     subtitle: 'Front-Developer',
-    description: 'Faço parte do desenvolvimento do produto Vision com o alinhamento de prioridades de segurança para a visão de negócio através do monitoramento e respostas a ataques cibernéticos com gráficos informativos, protegendo ativos e sistemas digitais, dessa forma podendo tomar decisões mais informadas e estratégicas.',
+    description: 'Atuei no time de Design System, fornecendo componentes reutilizáveis e documentações detalhadas para os times de front-end, otimizando o tempo e padronizando produtos para a plataforma Cloud com foco em gestão inteligente.',
     time: {
-      startDate: { year: '2024', month: Month.Abr }
+      startDate: { year: '2022', month: Month.Set },
+      endDate: { year: '2023', month: Month.Set },
     },
     techs: [
       {
@@ -149,19 +146,23 @@ export const experiences: ExperienceProps[] = [
       },
       {
         id: randomUUID(),
-        text: 'NextJS'
+        text: 'Storybook'
       },
       {
         id: randomUUID(),
-        text: 'Saas'
+        text: 'Styled Components'
       },
       {
         id: randomUUID(),
-        text: 'Ant Design'
+        text: 'Jest'
       },
       {
         id: randomUUID(),
-        text: 'Apexcharts'
+        text: 'Testing Library'
+      },
+      {
+        id: randomUUID(),
+        text: 'Design System'
       },
     ]
   },

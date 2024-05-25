@@ -10,14 +10,14 @@ function TextBold({ text }: { text: string }) {
 
 function Home() {
   return (
-    <div className="flex max-w-[1280px] flex-col gap-6">
+    <div className="flex max-w-[1444px] flex-col gap-6">
       <section className="flex flex-col gap-3">
         <h1 className="text-zinc-50 text-4xl font-semibold">
           Olá, eu sou a Larissa - Front-end Developer
         </h1>
 
         <p className='text-zinc-50 text-opacity-75 text-lg'>
-          Comecei a programar em 2020 com <TextBold text='JavaScript e TypeScript' />. Atualmente,
+          Comecei a programar em <TextBold text='2019-2020' /> com <TextBold text='JavaScript e TypeScript' />. Atualmente,
           sou Desenvolvedora Front-end na <TextBold text='ISH' /> e meu foco principal é construir {''}
           <TextBold text='interfaces de usuários' /> onde a ponte de {''}
           <TextBold text='design e código' /> se encontram. Quando não estou no computador, {''}
@@ -34,7 +34,7 @@ function Home() {
         ))}
       </section>
 
-      <section className='grid gap-4 lg:grid-cols-2 sm:grid-cols-1'>
+      <section className='grid gap-4 lg:grid-cols-3 sm:grid-cols-1'>
         {experiences.map(item => (
           <CardRoot key={item.id}>
             <div>

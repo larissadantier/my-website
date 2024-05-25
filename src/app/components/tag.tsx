@@ -10,7 +10,7 @@ export function TagRoot({ children, className }: TagRootGenericProps) {
   return (
     <div
       className={cn([
-        'flex select-none items-center justify-center rounded-md border border-zinc-500 bg-neutral-900 px-3 py-1',
+        'flex items-center justify-center rounded-md border border-zinc-500 bg-neutral-900 px-3 py-1',
         className,
       ])}
     >
