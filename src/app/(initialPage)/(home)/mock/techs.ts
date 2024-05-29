@@ -60,6 +60,10 @@ export const techs: TechsProps[] = [
   },
   {
     id: randomUUID(),
+    text: 'Docker',
+  },
+  {
+    id: randomUUID(),
     text: 'Storybook',
   },
 ]
